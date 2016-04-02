@@ -25,7 +25,8 @@
         android:text="@string/aboutme"
         android:id="@+id/button"
         android:layout_alignParentBottom="true"
-        android:textSize="@dimen/h2" />
+        android:textSize="@dimen/h2"
+        android:background="#F0DFA7" />
 
     <ListView
         android:layout_width="wrap_content"
@@ -34,6 +35,6 @@
         android:layout_below="@+id/textView"
         android:layout_above="@+id/button"
         android:layout_margin="20dp"
-        android:background="#82ffffff" />
+        android:background="#82fff6d5" />
 
 </RelativeLayout>
