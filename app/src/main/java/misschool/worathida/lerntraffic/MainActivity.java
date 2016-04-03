@@ -1,6 +1,8 @@
 package misschool.worathida.lerntraffic;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -38,8 +40,15 @@ public class MainActivity extends AppCompatActivity {
                 // medip+enter ,space, ctrl+space =,medip.crec ,ใส่ getbase ในcreatet  เลือกที่อยู่ ของเสียง R คือทั้งหมด ตามด้วยโฟลเดอร์ และชื่อของเสียง
                 mediaPlayer.start();
 
-            } // ทำงานเมื่อคลิกที่ปุ่ม
-        });
+                //ต้องการเปิดหน้าเว็บ https://youtu.be/PGfPNuFMNfg (web view)
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("https://www.facebook.com/sodafon")); //ให้ทำการเปิด เบราเซอร์
+                startActivity(intent);
+
+
+             // ทำงานเมื่อคลิกที่ปุ่ม
+        }});
+
 
     }   //Main Method
 
