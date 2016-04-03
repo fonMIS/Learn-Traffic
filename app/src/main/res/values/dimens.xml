@@ -6,7 +6,8 @@
 
     <dimen name="h1">30sp</dimen>
     <dimen name="h2">20sp</dimen>
+    <dimen name="s1">15sp</dimen>
 
-    <dimen name="imageh">120dp</dimen>
-    <dimen name="imagew">120dp</dimen>
+    <dimen name="image1">120dp</dimen>
+    <dimen name="image2">250dp</dimen>
 </resources>

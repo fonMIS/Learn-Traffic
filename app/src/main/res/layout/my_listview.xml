@@ -4,8 +4,8 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:layout_width="@dimen/imagew"
-        android:layout_height="@dimen/imageh"
+        android:layout_width="@dimen/image1"
+        android:layout_height="@dimen/image1"
         android:id="@+id/imageView"
         android:layout_margin="15dp" />
 

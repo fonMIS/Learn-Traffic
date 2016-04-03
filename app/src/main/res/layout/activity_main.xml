@@ -35,6 +35,7 @@
         android:layout_below="@+id/textView"
         android:layout_above="@+id/button"
         android:layout_margin="20dp"
-        android:background="#82fff6d5" />
+        android:background="#82fff6d5"
+        android:headerDividersEnabled="true" />
 
 </RelativeLayout>
